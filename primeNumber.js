@@ -1,3 +1,4 @@
+//Next prime number, starting at n and incrementing from there.
 let notprime_count=0;
 let number=12;
 let n=number+1;
@@ -13,7 +14,6 @@ while(n>2)
 {
     for(let i=2;i<n/2;i++){
         if(n%i==0){
-            //console.log("i= "+i+" n= "+n)
             notprime_count=1;
             break;
         }
